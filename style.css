@@ -62,12 +62,17 @@ nav a {
   position: relative;
 }
 
+.header-bar{
+  margin-top: 5px;
+}
+
 .header-bar a {
   text-decoration: none;
+  margin: 7px 0 auto 8px;
+  float: right;
   color: white;
-  padding-left: 5px;
-  padding-top: 10px;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 0.9em;
 }
 
 .header-bar input {
@@ -78,7 +83,7 @@ nav a {
   height: 25px;
   padding-top: 6px;
   padding-left: 10px;
-  width: calc(100% - 250px);
+  width: calc(100% - 290px);
   float: left;
 }
 
@@ -105,11 +110,24 @@ nav a {
   padding-bottom: 8px;
 }
 
-.npm-logo {
-  width: 80px;
+.header-bar button{
   float: left;
-  margin: 4px;
+  border-width: 1px;
+  border-color: gray;
+  background-color: rgb(31, 82, 111);
+}
+
+.npm-logo {
+  width: 90px;
+  float: left;
+  margin: 4px 10px auto 4px;
+}
+
+.search-logo{
+  height: 22px;
+  padding: 5px 2px 0 2px;
   
+
 }
 
 .bear-logo {
